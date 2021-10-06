@@ -7,11 +7,11 @@ namespace CarTests
     public class CarTests
     {
         //TODO: add emptyTest so we can configure our runtime environment (remove this test before pushing to your personal GitHub account)
-        [TestMethod]
+        /*[TestMethod]
         public void EmptyTest()
         {
             Assert.AreEqual(10, 10, .001);
-        }
+        } */
 
         Car test_car;
 
