@@ -46,7 +46,7 @@ namespace CarNS
             GasTankLevel += gas;
             if (GasTankLevel > GasTankSize)
             {
-                throw new ArgumentOutOfRangeException("Cant' exceed tank size");
+                throw new ArgumentOutOfRangeException("Can't exceed tank size");
             }
         }
 
