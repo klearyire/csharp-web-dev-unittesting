@@ -22,6 +22,8 @@ namespace CarTests
             test_car = new Car("Toyota", "Prius", 10, 50);
         }
 
+        #region Gas Tank
+
         //TODO: constructor sets gasTankLevel properly
         [TestMethod]
         public void TestInitialGasTank()
@@ -29,8 +31,8 @@ namespace CarTests
             Assert.AreEqual(10, test_car.GasTankLevel, .001);
         }
 
+        
         //TODO: gasTankLevel is accurate after driving within tank range
-
         [TestMethod]
         public void TestGasTankAfterDriving()
         {
@@ -39,7 +41,7 @@ namespace CarTests
         }
 
         //TODO: gasTankLevel is accurate after attempting to drive past tank range
-
+        
         [TestMethod]
         public void TestGasTankAfterExceedingTankRange()
         {
@@ -57,3 +59,4 @@ namespace CarTests
         }
     }
 }
+#endregion
