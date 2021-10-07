@@ -44,7 +44,7 @@ namespace CarTests
         public void TestGasTankAfterExceedingTankRange()
         {
             test_car.Drive(501);
-            Assert.AreEqual(0, test_car.GasTankLevel, .001);
+            Assert.AreEqual(test_car.GasTankLevel, 0, .001);
         }
 
         //TODO: can't have more gas than tank size, expect an exception
